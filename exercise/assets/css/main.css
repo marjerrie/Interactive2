@@ -10,7 +10,7 @@ body {
 	width: 900px;
 	height: 556px;
 	margin: 100px auto;
-	background: white;
+	background: #ECECEC;
 	position: relative;
 }
 
@@ -65,7 +65,6 @@ body {
 	background: #18D037;
 }
 
-
 .stem{
 	width: 7px;
 	height: 315px;
@@ -76,11 +75,77 @@ body {
 	transform: rotate(177deg);
 }
 
+.leaf_1{
+	width: 75px;
+	height: 75px;
+	background: orange;
+	-webkit-clip-path: polygon(13% 0, 100% 100%, 100% 63%);
+	clip-path: polygon(13% 0, 100% 100%, 100% 63%);
+	position: absolute;
+	top: 127px;
+	left: 584px;
+}
+
+.leaf_2{
+	width: 75px;
+	height: 75px;
+	background: orange;
+	-webkit-clip-path: polygon(80% 8%, 0 100%, 0 65%);
+	clip-path: polygon(80% 8%, 0 100%, 0 65%);
+	position: absolute;
+	top: 110px;
+	left: 658px;
+}
+
+.leaf_3{
+	width: 75px;
+	height: 75px;
+	background: orange;
+	-webkit-clip-path: polygon(0 14%, 69% 88%, 58% 46%);
+	clip-path: polygon(0 14%, 69% 88%, 58% 46%);
+	position: absolute;
+	top: 98px;
+	left: 608px;
+}
+
 .bulb{
+	width: 200px;
+	height: 200px;
+	background: #FDF7E1;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	position: absolute;
+	top: 300px;
+	left: 175px;
+}
+
+.pineapple_bod{
 	width: 100px;
-	height: 100px;
-	background: red;
+	height: 135px;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
-	border-radius: 50px;
+	border-radius: 45px 45px 35px 35px; 
+	position: absolute;
+	top: 365px;
+	left: 435px;
+	background: rgba(129,201,62,1);
+	background: -moz-linear-gradient(top, rgba(129,201,62,1) 0%, rgba(196,229,86,1) 58%, rgba(245,250,103,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(129,201,62,1)), color-stop(58%, rgba(196,229,86,1)), color-stop(100%, rgba(245,250,103,1)));
+	background: -webkit-linear-gradient(top, rgba(129,201,62,1) 0%, rgba(196,229,86,1) 58%, rgba(245,250,103,1) 100%);
+	background: -o-linear-gradient(top, rgba(129,201,62,1) 0%, rgba(196,229,86,1) 58%, rgba(245,250,103,1) 100%);
+	background: -ms-linear-gradient(top, rgba(129,201,62,1) 0%, rgba(196,229,86,1) 58%, rgba(245,250,103,1) 100%);
+	background: linear-gradient(to bottom, rgba(129,201,62,1) 0%, rgba(196,229,86,1) 58%, rgba(245,250,103,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#81c93e', endColorstr='#f5fa67', GradientType=0 );
+}
+
+.pinapple_leaf{
+	width: 280px;
+	height: 400px;
+	background-color: #0D8321;
+	-webkit-clip-path: polygon(25% 100%, 0 56%, 20% 66%, 10% 26%, 31% 32%, 48% 0, 65% 32%, 87% 26%, 83% 66%, 100% 56%, 70% 100%);
+	clip-path: polygon(25% 100%, 0 56%, 20% 66%, 10% 26%, 31% 32%, 48% 0, 65% 32%, 87% 26%, 83% 66%, 100% 56%, 70% 100%);
+	position: absolute;
+	top: 200px;
+	left: 400px;
 }
