@@ -1,17 +1,488 @@
 body{
+	background-color: black;
+}
+
+.h_left{
+	width: 500px;
+	height: 765px;
+	position: absolute;
+	background-color: black;
+}
+
+.h_right{
+	width: 500px;
+	height: 765px;
+	position: absolute;
+	background-color: black;
+	left: 925px;
+}
+
+
+div.vertical:hover{
+	visibility: hidden;
+}
+
+/*div.horizontal:hover{
+	opacity: 0;
+}*/
+
+div.h_left:hover{
+	opacity: 0;
+}*/
+
+div.h_right:hover{
+	visibility: hidden;
+}
+
+/*div.vertical.h_left:hover{
+	visibility: hidden;
+}*/
+
+.vertical{
+  animation: blink-animation 3s steps(9, start) infinite;
+  -webkit-animation: blink-animation 3s steps(9, start) infinite;
+  animation-delay: 6s;*/
+}
+@keyframes blink-animation {
+  	to {
+   		 visibility: hidden;
+  	}
+
+}
+	
+@-webkit-keyframes blink-animation {
+  	to {
+    	visibility: hidden;
+  	}
+}
+
+.horizontal{
+  animation: blink-animation 3s steps(9, start) infinite;
+  -webkit-animation: blink-animation 6s steps(9, start) infinite;
+  animation-delay: 3s;*/
+}
+@keyframes blink-animation {
+  	to {
+   		 visibility: hidden;
+  	}
+}
+	
+@-webkit-keyframes blink-animation {
+  	to {
+    	visibility: hidden;
+  	}
+}
+
+/*.vertical{
+	position: relative;
+}
+
+.horizontal{
+	position: relative;
+}*/
+
+.alpha_1{
+	position: absolute;
+	top: 125px;
+	left: 200px;
+}
+
+.alpha_2{
+	position: absolute;
+	top: 275px;
+	left: 270px;
+}
+
+.alpha_3{
+	position: absolute;
+	top: 425px;
+	left: 330px;
+}
+
+.alpha_4{
+	position: absolute;
+	top: 575px;
+	left: 525px;
+}
+
+.a{
+	position: absolute;
+}
+
+.v_1{
+	width: 2px;
+	height: 100px;
+	position: absolute;
 	background-color: white;
 }
 
-h1{
-	font-family: 'Baloo Tamma', cursive;
-	font-size: 2.5em;
-	letter-spacing: 2px;
-	text-align: center;
+.v_2{
+	width: 2px;
+	height: 50px;
+	position: absolute;
+	background-color: white;
 }
 
-/*#img{
-	
-	background-image: url(../images/draft1.jpg)
-	min-height: 100%
+.v_3{
+	width: 2px;
+	height: 46px;
+	position: absolute;
+	background-color: white;
+}
 
-}*/
+.v_4{
+	width: 2px;
+	height: 94px;
+	position: absolute;
+	background: white;
+}
+
+.v_5{
+	width: 2px;
+	height: 37px;
+	position: absolute;
+	background: white;
+}
+
+.v_6{
+	width: 2px;
+	height: 75px;
+	position: absolute;
+	background-color: white;
+}
+
+
+.h_1{
+	width: 50px;
+	height: 2px;
+	position: absolute;
+	background: white;
+}
+
+.h_2{
+	width: 40px;
+	height: 2px;
+	position: absolute;
+	background: white;
+}
+
+.h_3{
+	width: 35px;
+	height: 2px;
+	position: absolute;
+	background: white;
+}
+
+.h_4{
+	width: 44px;
+	height: 2px;
+	position: absolute;
+	background-color: white;
+}
+
+.h_5{
+	width: 28px;
+	height: 2px;
+	position: absolute;
+	background: white;
+}
+
+.h_6{
+	width: 38px;
+	height: 2px;
+	position: absolute;
+	background: white;
+}
+
+.s_h_1{
+	width: 6px;
+	height: 2px;
+	position: absolute;
+	background: white;
+}
+
+.s_h_2{
+	width: 6px;
+	height: 2px;
+	position: absolute;
+	background: white;
+}
+
+.s_v_1{
+	width: 2px;
+	height: 4px;
+	position: absolute;
+	background-color: white;
+}
+
+.p_v_1{
+	width: 2px;
+	height: 15px;
+	position: absolute;
+	background-color: white;
+}
+
+.p_v_2{
+	width: 2px;
+	height: 50px;
+}
+
+.p_h_1{
+	width: 7px;
+	height: 2px;
+	position: absolute;
+	background-color: white;
+}
+
+.d_1{
+	width: 2px;
+	height: 70px;
+	transform: rotate(50deg);
+	position: absolute;
+	background-color: white;
+}
+
+.d_2{
+	width: 2px;
+	height: 57px;
+	transform: rotate(50deg);
+	position: absolute;
+	background-color: white;
+}
+
+.d_3{
+	width: 2px;
+	height: 100px;
+	transform: rotate(-11.5deg);
+	position: absolute;
+	background-color: white;
+}
+
+.d_4{
+	width: 2px;
+	height: 108px;
+	transform: rotate(-24deg);
+	position: absolute;
+	background-color: white;
+}
+
+.d_5{
+	width: 2px;
+	height: 100px;
+	transform: rotate(11.5deg);
+	position: absolute;
+	background-color: white;
+}
+
+
+.b{
+	position: absolute;
+	left: 75px;
+}
+
+.c{
+	position: absolute;
+	left: 150px;
+}
+
+.d{
+	position: absolute;
+	left: 225px;
+}
+
+.e{
+	position: absolute;
+	left: 300px;
+}
+
+.f{
+	position: absolute;
+	left: 375px;
+}
+
+.g{
+	position: absolute;
+	left: 450px;
+}
+
+.h{
+	position: absolute;
+	left: 525px;
+}
+
+.i{
+	position: absolute;
+	left: 600px;
+}
+
+.j{
+	position: absolute;
+	left: 625px;
+}
+
+.k{
+	position: absolute;
+	left: 700px;
+}
+
+.l{
+	position: absolute;
+	left: 775px;
+}
+
+.m{
+	position: absolute;
+	left: 850px;
+}
+
+.n{
+	position: absolute;
+	left: 925px;
+}
+
+.o{
+	position: absolute;
+}
+
+.p{
+	position: absolute;
+	left: 75px;
+}
+
+.q{
+	position: absolute;
+	left: 150px;
+}
+
+.r{
+	position: absolute;
+	left: 225px;
+}
+
+.s{
+	position: absolute;
+	left: 300px;
+}
+
+.t{
+	position: absolute;
+	left: 375px;
+}
+
+.u{
+	position: absolute;
+	left: 450px;
+}
+
+.v{
+	position: absolute;
+	left: 525px;
+}
+
+.w{
+	position: absolute;
+	left: 600px;
+}
+
+.x{
+	position: absolute;
+	left: 675px;
+}
+
+.y{
+	position: absolute;
+	left: 725px;
+}
+
+.z{
+	position: absolute;
+	left: 800px;
+}
+
+.one{
+	position: absolute;
+}
+
+.two{
+	position: absolute;
+	left: 30px;
+}
+
+.three{
+	position: absolute;
+	left: 105px;
+}
+
+.four{
+	position: absolute;
+	left: 180px;
+}
+
+.five{
+	position: absolute;
+	left: 255px;
+}
+
+.six{
+	position: absolute;
+	left: 330px;
+}
+
+.seven{
+	position: absolute;
+	left: 405px;
+}
+
+.eight{
+	position: absolute;
+	left: 480px;
+}
+
+.nine{
+	position: absolute;
+	left: 555px;
+}
+
+.zero{
+	position: absolute;
+	left: 630px;
+}
+
+.period{
+	position: absolute;
+}
+
+.comma{
+	position: absolute;
+	left: 35px;
+}
+
+.exclaim{
+	position: absolute;
+	left:70px;
+}
+
+.quote_1a{
+	position: absolute;
+	left: 105px;
+}
+
+.quote_1b{
+	position: absolute;
+	left: 128px;
+}
+
+.quote_2a{
+	position: absolute;
+	left: 160px;
+}
+
+.quote_2b{
+	position: absolute;
+	left: 183px;
+}
+
+.question{
+	position: absolute;
+	left: 250px;
+}
