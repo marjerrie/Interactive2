@@ -18,17 +18,17 @@ body{
 }
 
 
-div.vertical:hover{
+/*div.vertical:hover{
 	visibility: hidden;
 }
 
 /*div.horizontal:hover{
 	opacity: 0;
-}*/
+}
 
 div.h_left:hover{
 	opacity: 0;
-}*/
+}
 
 div.h_right:hover{
 	visibility: hidden;
