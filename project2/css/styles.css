@@ -2,111 +2,113 @@ body{
 	background-color: black;
 }
 
+.h_random_1{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	/*background-color: white;*/
+	left: 700px;
+}
+
+.h_random_2{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	/*
+	background-color: white;*/
+	top: 600px;
+	left: 500px;
+}
+
+.h_random_3{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	/*background-color: white;*/
+	top: 575px;
+	left: 1000px;
+}
+
+.h_random_4{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	/*background-color: white;*/
+	top: 800px;
+	left: 750px;
+}
+
 .h_left{
-	width: 500px;
+	width: 300px;
 	height: 765px;
 	position: absolute;
-	background-color: black;
+	/*background-color: blue;*/
 }
 
 .h_right{
-	width: 500px;
+	width: 300px;
 	height: 765px;
 	position: absolute;
-	background-color: black;
-	left: 925px;
+	left: 1125px;
+	/*background-color: red;*/
 }
 
 
-/*div.vertical:hover{
-	visibility: hidden;
+/*div.hover{
+	animation:blur 2.5s ease-out infinite;
 }
 
-/*div.horizontal:hover{
-	opacity: 0;
-}
-
-div.h_left:hover{
-	opacity: 0;
-}
-
-div.h_right:hover{
-	visibility: hidden;
-}
-
-/*div.vertical.h_left:hover{
-	visibility: hidden;
-}*/
-
-.vertical{
-  animation: blink-animation 3s steps(9, start) infinite;
-  -webkit-animation: blink-animation 3s steps(9, start) infinite;
-  animation-delay: 6s;*/
-}
-@keyframes blink-animation {
-  	to {
-   		 visibility: hidden;
-  	}
-
-}
-	
-@-webkit-keyframes blink-animation {
-  	to {
-    	visibility: hidden;
-  	}
-}
-
-.horizontal{
-  animation: blink-animation 3s steps(9, start) infinite;
-  -webkit-animation: blink-animation 6s steps(9, start) infinite;
-  animation-delay: 3s;*/
-}
-@keyframes blink-animation {
-  	to {
-   		 visibility: hidden;
-  	}
-}
-	
-@-webkit-keyframes blink-animation {
-  	to {
-    	visibility: hidden;
-  	}
-}
-
-/*.vertical{
-	position: relative;
-}
-
-.horizontal{
-	position: relative;
+@keyframes blur{
+  from{
+      text-shadow:0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;}
 }*/
 
 .alpha_1{
 	position: absolute;
-	top: 125px;
-	left: 200px;
+	top: 150px;
+	left: 250px;
 }
 
 .alpha_2{
 	position: absolute;
-	top: 275px;
-	left: 270px;
+	top: 300px;
+	left: 295px;
 }
 
 .alpha_3{
 	position: absolute;
-	top: 425px;
-	left: 330px;
+	top: 450px;
+	left: 380px;
 }
 
 .alpha_4{
 	position: absolute;
-	top: 575px;
-	left: 525px;
+	top: 600px;
+	left: 575px;
 }
 
-.a{
-	position: absolute;
+
+.vertical:hover{
+	background-color: #4AFFE9;
+}
+
+.horizontal:hover{
+	background-color: #EA2C2C;
+}
+
+.diagonal:hover{
+	background-color: #B359FF;
 }
 
 .v_1{
@@ -116,12 +118,18 @@ div.h_right:hover{
 	background-color: white;
 }
 
+
+
 .v_2{
 	width: 2px;
 	height: 50px;
 	position: absolute;
 	background-color: white;
 }
+
+/*.v_2:hover{
+	background-color: #A2FF00;
+}*/
 
 .v_3{
 	width: 2px;
@@ -130,12 +138,21 @@ div.h_right:hover{
 	background-color: white;
 }
 
+/*.v_3:hover{
+	background-color: #B359FF;
+}*/
+
 .v_4{
 	width: 2px;
 	height: 94px;
 	position: absolute;
 	background: white;
 }
+
+/*.v_4:hover{
+	background-color: #B359FF;
+}*/
+
 
 .v_5{
 	width: 2px;
@@ -144,12 +161,21 @@ div.h_right:hover{
 	background: white;
 }
 
+/*.v_5:hover{
+	background-color: #B359FF;
+}*/
+
+
 .v_6{
 	width: 2px;
 	height: 75px;
 	position: absolute;
 	background-color: white;
 }
+
+/*.v_6:hover{
+	background-color: #B359FF;
+}*/
 
 
 .h_1{
@@ -158,6 +184,10 @@ div.h_right:hover{
 	position: absolute;
 	background: white;
 }
+
+/*.h_1:hover{
+	background-color: #FF0000;
+}*/
 
 .h_2{
 	width: 40px;
@@ -236,8 +266,8 @@ div.h_right:hover{
 
 .d_1{
 	width: 2px;
-	height: 70px;
-	transform: rotate(50deg);
+	height: 113px;
+	transform: rotate(30deg);
 	position: absolute;
 	background-color: white;
 }
@@ -273,6 +303,19 @@ div.h_right:hover{
 	position: absolute;
 	background-color: white;
 }
+
+.d_6{
+	width: 2px;
+	height: 54px;
+	transform: rotate(24deg);
+	position: absolute;
+	background-color: white;
+}
+
+.a{
+	position: absolute;
+}
+
 
 
 .b{
@@ -386,17 +429,17 @@ div.h_right:hover{
 
 .x{
 	position: absolute;
-	left: 675px;
+	left: 680px;
 }
 
 .y{
 	position: absolute;
-	left: 725px;
+	left: 755px;
 }
 
 .z{
 	position: absolute;
-	left: 800px;
+	left: 830px;
 }
 
 .one{

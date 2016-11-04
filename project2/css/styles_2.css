@@ -1,124 +1,284 @@
 body{
-	background-color: white;
+	background-color: black ;
+	height: 2900px;
 }
 
 p{
 	font-family: 'Inconsolata', monospace;
+	color: gray;
+}
+
+a{
+	font-family: 'Inconsolata', monospace;
+}
+
+a:link {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover{
+	color: #4AFFE9;
+	text-decoration: none;
+}
+
+a:visited {
+    color: #EA2C2C;
+    text-decoration: none;
 }
 
 .about{
 	position: absolute;
 	width: 600px;
-	top: 300px;
+	top: 2400px;
 	left: 400px;
 	text-align: center;
 }
 
-.hello{
+.emphasis{
 	position: absolute;
-	top: 150px;
-	left: 500px;
+	width: 600px;
+	top: 2470px;
+	left: 400px;
+	text-align: center;
+	-webkit-animation: blur 4s infinite;
+	-webkit-animation-delay: 2s;
+}
+
+
+/*div{
+	animation: blur 2.5s ease-out infinite;
+}
+
+@keyframes blur{
+  from{
+      text-shadow:0px 0px 10px #76FF99, 
+      0px 0px 25px #76FF99,
+      0px 0px 25px #76FF99,
+      0px 0px 50px #76FF99,
+      0px 0px 50px #76FF99,
+      0px 0px 50px #EA2C2C,
+      0px 0px 150px #EA2C2C,
+      0px 10px 100px #EA2C2C,
+      0px 10px 100px #EA2C2C,
+      0px 10px 100px #EA2C2C,
+      0px -10px 100px #EA2C2C,
+      0px -10px 100px #EA2C2C;}
+}*/
+
+
+.neon{
+	position: absolute;
+	top: 300px;
+	left: 275px;
+	/*left: 550px;*/
+	transform: scale(3, 3);
+}
+
+.paper{
+	position: absolute;
+	top: 1000px;
+	left: 175px;
+	transform: scale(3, 3);
+}
+
+.clip{
+	position: absolute;
+	top: 1700px;
+	left: 350px;
+	transform: scale(3, 3);
 }
 
 .v_1{
 	width: 2px;
 	height: 100px;
 	position: absolute;
-	background-color: black;
+	background-color: #EA2C2C;
+	
+}
+
+.v_2{
+	width: 2px;
+	height: 50px;
+	position: absolute;
+	background-color: #EA2C2C;
 }
 
 .v_3{
 	width: 2px;
 	height: 46px;
 	position: absolute;
-	background-color: black;
+	background-color: #EA2C2C;
 }
 
 .v_4{
 	width: 2px;
 	height: 94px;
 	position: absolute;
-	background: black;
+	background: #EA2C2C;
 }
 
 .v_6{
 	width: 2px;
 	height: 75px;
 	position: absolute;
-	background-color: black;
+	background-color: #EA2C2C;
 }
 
 .h_1{
 	width: 50px;
 	height: 2px;
 	position: absolute;
-	background: black;
+	background: #EA2C2C;
+}
+
+.h_2{
+	width: 40px;
+	height: 2px;
+	position: absolute;
+	background: #EA2C2C;
 }
 
 .h_3{
 	width: 35px;
 	height: 2px;
 	position: absolute;
-	background: black;
+	background: #EA2C2C;
 }
 
 .h_4{
 	width: 44px;
 	height: 2px;
 	position: absolute;
-	background-color: black;
+	background-color: #EA2C2C;
 }
 
 .s_h_1{
 	width: 6px;
 	height: 2px;
 	position: absolute;
-	background: black;
+	background: #EA2C2C;
 }
 
 .s_v_1{
 	width: 2px;
 	height: 4px;
 	position: absolute;
-	background-color: black;
+	background-color: #EA2C2C;
 }
 
 .p_v_1{
 	width: 2px;
 	height: 15px;
 	position: absolute;
-	background-color: black;
+	background-color: #EA2C2C;
 }
 
 .p_h_1{
 	width: 7px;
 	height: 2px;
 	position: absolute;
-	background-color: black;
+	background-color: #EA2C2C;
 }
 
-.h{
+.d_4{
+	width: 2px;
+	height: 108px;
+	transform: rotate(-24deg);
 	position: absolute;
+	background-color: #EA2C2C;
 }
 
-.e{
+.n_1{
+	position: absolute;
+	-webkit-animation: blur 4s infinite;
+	-webkit-animation-delay: 1s;
+}
+
+@-webkit-keyframes blur {
+  0%, 100%  { -webkit-filter: blur(0px);}
+  50% { -webkit-filter: blur(3px);}
+}
+
+.e_1{
 	position: absolute;
 	left: 75px;
-}
-
-.l_1{
-	position: absolute;
-	left: 150px;
-}
-
-.l_2{
-	position: absolute;
-	left: 225px;
+	-webkit-animation: blur 2s infinite;
+	-webkit-animation-delay: 2s;
 }
 
 .o{
 	position: absolute;
+	left: 150px;
+	-webkit-animation: blur 7s infinite;
+	-webkit-animation-delay: 4s;
+}
+
+.n_2{
+	position: absolute;
+	left: 225px;
+	-webkit-animation: blur 3s infinite;
+	-webkit-animation-delay: 7s;
+}
+
+.p_1{
+	position: absolute;
+	-webkit-animation: blur 4s infinite;
+	-webkit-animation-delay: 1s;
+}
+
+.a{
+	position: absolute;
+	left: 75px;
+	-webkit-animation: blur 7s infinite;
+	-webkit-animation-delay: 4s;
+}
+
+.p_2{
+	position: absolute;
+	left: 150px;
+	-webkit-animation: blur 2s infinite;
+	-webkit-animation-delay: 2s;
+}
+
+.e_2{
+	position: absolute;
+	left: 225px;
+	-webkit-animation: blur 3s infinite;
+	-webkit-animation-delay: 7s;
+}
+
+.r{
+	position: absolute;
 	left: 300px;
+	-webkit-animation: blur 4s infinite;
+	-webkit-animation-delay: 6s;
+}
+
+.c{
+	position: absolute;
+	-webkit-animation: blur 3s infinite;
+	-webkit-animation-delay: 2s;
+}
+
+.l{
+	position: absolute;
+	left: 75px;
+	-webkit-animation: blur 2s infinite;
+	-webkit-animation-delay: 1s;
+}
+
+.i{
+	position: absolute;
+	left: 150px;
+	-webkit-animation: blur 5s infinite;
+	-webkit-animation-delay: 2s;
+}
+
+.p_3{
+	position: absolute;
+	left: 175px;-webkit-animation: blur 4s infinite;
+	-webkit-animation-delay: 3s;
 }
 
 .exclaim{

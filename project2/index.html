@@ -7,13 +7,72 @@
 	<link rel="stylesheet" text="text/css" href="css/styles.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat" >
 	<link href="https://fonts.googleapis.com/css?family=Baloo+Tamma" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script>
+        $(document).ready(function() {
+
+            $(".h_left").hover(
+              function() {
+                $(".vertical").css("visibility", "hidden");
+              }, function() {
+                $(".vertical").css("visibility", "");
+              }
+            );
+
+            /* ----- ONE FUNCTION ---- */
+            $(".h_right").hover(
+              function() {
+                $(".horizontal").css("visibility", "hidden");
+              }, function() {
+                $(".horizontal").css("visibility", "");
+              }
+            );
+
+            $(".h_random_1").hover(
+              function() {
+                $(".diagonal ").css("visibility", "hidden");
+              }, function() {
+                $(".diagonal").css("visibility", "");
+              }
+            );
+
+            $(".h_random_2").hover(
+              function() {
+                $(".diagonal ").css("visibility", "hidden");
+              }, function() {
+                $(".diagonal").css("visibility", "");
+              }
+            );
+
+            $(".h_random_3").hover(
+              function() {
+                $(".diagonal ").css("visibility", "hidden");
+              }, function() {
+                $(".diagonal").css("visibility", "");
+              }
+            );
+
+            $(".h_random_4").hover(
+              function() {
+                $(".diagonal ").css("visibility", "hidden");
+              }, function() {
+                $(".diagonal").css("visibility", "");
+              }
+            );
+
+
+        });
+        </script>
 </head>
 
 <body>
 	<div class="h_right"></div>
-
-	<div class="h_left">
-		<a href="about.html" target="_blank">
+	<div class="h_random_1"></div>
+	<div class="h_random_2"></div>
+	<div class="h_random_3"></div>
+	<div class="h_random_4"></div>
+	<div class="h_left"></div>
+		<a href="about.html">
 			<div class="alpha_1">
 
 				<div class="a">
@@ -27,7 +86,6 @@
 					<div class="horizontal h_2" style="left:14px; top:48px"></div>
 					<div class="horizontal h_3" style="left:14px; top:54px"></div>
 					<div class="vertical s_v_1" style="left:14px; top:50px"></div>
-
 				</div>
 
 				<div class="b">
@@ -133,16 +191,16 @@
 					<div class="vertical v_1"></div>
 					<div class="horizontal s_h_1" style="left:2px;top:98px;"></div>
 					<div class="vertical v_3" style="top:54px; left:6px"></div>
-					<div class="horizontal h_4" style="left:6px; top:52px; width:48px"></div>
-					<div class="vertical v_3" style="top:54px; left:52px"></div>
-					<div class="horizontal s_h_1" style="left:54px;top:98px;"></div>
-					<div class="vertical v_2" style="left:58px; top:45px; height:55px"></div>
-					<div class="horizontal h_4" style="left:6px; top:45px; width:52px"></div>
-					<div class="d_1" style="top:-12px; left:33px"></div>
-					<div class="horizontal s_h_1" style="left:50px; width:10px;"></div>
-					<div class="d_2" style="top:-10px; left:28px"></div>
-					<div class="vertical v_5" style="left:6px"></div>
-					<div class-"vertical v_3" style="left:8px"></div>
+					<div class="horizontal h_5" style="left:6px; top:52px; width:25px"></div>
+					<div class="diagonal d_4 horizontal vertical" style="top:50px; left:40px; height:52px;"></div>
+					<div class="horizontal s_h_1" style="left:51px;top:98px;"></div>
+					<div class="diagonal d_4  horizontal vertical" style="top:47px; left:46px; height:55px;"></div>
+					<div class="diagonal d_6  horizontal vertical" style="left:46px; top:-2px"></div>
+					<div class="horizontal s_h_1" style="left:51px"></div>
+					<div class="diagonal d_6  horizontal vertical" style="left:40px; top:-2px; height:52px"></div>
+					<div class="horizontal h_5" style="left:6px; top:46px; width:25px"></div>
+					<!--<div class="horizontal s_h_1" style="left:50px; width:10px;"></div>!-->
+					<div class="vertical v_3" style="left:6px"></div>
 				</div>
 
 				<div class="l">
@@ -159,17 +217,17 @@
 					<div class="horizontal s_h_1" style="top:98px"></div>
 					<div class="vertical v_1" style="left:6px"></div>
 					<div class="horizontal s_h_1" style="left:8px"></div>
-					<div class="d_3" style="left:22px"></div>
+					<div class="diagonal d_3  horizontal vertical" style="left:22px"></div>
 					<div class="vertical v_1" style="left:32px"></div>
 					<div class="horizontal s_h_1" style="left:34px"></div>
-					<div class="d_3" style="left:48px"></div>
+					<div class="diagonal d_3  horizontal vertical" style="left:48px"></div>
 				</div>
 
 				<div class="n">
 					<div class="vertical v_1"></div>
 					<div class="horizontal s_h_1" style="top:98px"></div>
 					<div class="vertical v_1" style="left:6px"></div>
-					<div class="d_4" style="top:-4px; left:28px"></div>
+					<div class="diagonal d_4 horizontal vertical" style="top:-4px; left:28px"></div>
 					<div class="horizontal s_h_1" style="top:98px; left:50px; width:8px"></div>
 					<div class="vertical v_1" style="left:58px"></div>
 					<div class="horizontal s_h_1" style="left:54px"></div>
@@ -260,7 +318,7 @@
 				</div>
 
 				<div class="v">
-					<div class="d_4" style="top:-4px; left:22px"></div>
+					<div class="diagonal d_4 horizontal vertical" style="top:-4px; left:22px"></div>
 					<div class="horizontal s_h_1" style="top:98px; left:44px; width:10px"></div>
 					<div class="vertical v_1" style="left:54px"></div>
 					<div class="horizontal s_h_1" style="left:50px"></div>
@@ -272,29 +330,50 @@
 					<div class="horizontal s_h_1"></div>
 					<div class="vertical v_1" style="left:6px"></div>
 					<div class="horizontal s_h_1" style="left:8px; top:98px"></div>
-					<div class="d_5" style="left:22px"></div>
+					<div class="diagonal d_5 horizontal vertical" style="left:22px"></div>
 					<div class="vertical v_1" style="left:32px"></div>
 					<div class="horizontal horizontal s_h_1" style="left:34px; top:98px"></div>
-					<div class="d_5" style="left:48px"></div>
+					<div class="diagonal d_5 horizontal vertical" style="left:48px"></div>
 				</div>
 
 				<div class="x">
+					<div class="diagonal d_4 horizontal vertical" style="left: 4px; top:-2px; height:55px;"></div>
+					<div class="diagonal d_4 horizontal vertical" style="left:10px; top:-2px; height:52px"></div>
+
+					<div class="diagonal d_6 horizontal vertical" style="left:10px; top:50px; height:52px;"></div>
+					<div class="horizontal s_h_1" style="left:-5px;top:98px;"></div>
+					<div class="diagonal d_6 horizontal vertical" style="left:4px; top:47px; height:55px;"></div>
+					<div class="horizontal h_5" style="left:21px; top:52px; width:10px"></div>
+					<div class="diagonal d_4 horizontal vertical" style="top:50px; left:40px; height:52px;"></div>
+					<div class="horizontal s_h_1" style="left:51px;top:98px;"></div>
+					<div class="diagonal d_4 horizontal vertical" style="top:47px; left:46px; height:55px;"></div>
+					<div class="diagonal d_6 horizontal vertical" style="left:46px; top:-2px"></div>
+					<div class="horizontal s_h_1" style="left:51px"></div>
+					<div class="diagonal d_6 horizontal vertical" style="left:40px; top:-2px; height:52px"></div>
+					<div class="horizontal h_5" style="left:21px; top:46px; width:10px"></div>
+					<!--<div class="horizontal s_h_1" style="left:50px; width:10px;"></div>!-->
 				</div>
 
 				<div class="y">
+					<div class="vertical v_1" style="left:58px"></div>
+					<div class="horizontal h_1" style="top:98px; width:58px"></div>
+					<div class="vertical s_v_1" style="top:94px"></div>
+					<div class="horizontal h_4" style="top:92px; width:52px"></div>
+					<div class="vertical v_3" style="left:52px; top:48px; height:46px"></div>
+					<div class="horizontal h_4" style="top:48px; width:52px"></div>
+					<div class="vertical v_2"></div>
+					<div class="vertical s_h_1"></div>
+					<div class="vertical v_2" style="left:6px; height:42px;"></div>
 				</div>
 
 				<div class="z">
-					<div class="vertical s_v_1" style="top:2px; height:10px"></div>
+					<div class="horizontal h_1" style="top:6px; width:44px"></div>
+					<div class="vertical s_v_1" style="top:2px"></div>
 					<div class="horizontal h_1" style="width:58px"></div>
-					<div class="vertical v_2" style="left:56px"></div>
-					<div class="horizontal h_1" style="top:48px; width:56px"></div>
-					<div class="vertical v_3" style="top:50px; height:50px"></div>
+					<div class="diagonal d_1 horizontal vertical" style="left:28px; top:-6px"></div>
 					<div class="horizontal h_1" style="top:98px; width:58px"></div>
 					<div class="vertical s_v_1" style="top:94px; left:56px"></div>
-					<div class="horizontal h_1" style="left:6px; top:92px; width:52px"></div>
-					<div class="vertical v_5" style="left:6px; top:55px"></div>
-					<div class="horizontal h_1" style="left:6px; top:54px; width:52px"></div>
+					<div class="horizontal h_1" style="left:14px; top:92px; width:44px"></div>
 				</div>
 			</div>
 		</a>
@@ -322,15 +401,15 @@
 
 				<div class="three">
 					<div class="vertical v_1" style="left:58px"></div>
-					<div class="h_1" style="top:98px; width:58px"></div>
+					<div class="horizontal h_1" style="top:98px; width:58px"></div>
 					<div class="vertical s_v_1" style="top:94px"></div>
-					<div class="h_4" style="top:92px; width:52px"></div>
+					<div class="horizontal h_4" style="top:92px; width:52px"></div>
 					<div class="vertical v_3" style="left:52px; top:51px; height:43px"></div>
-					<div class="h_3" style="left:10px; top:51px; width:43px"></div>
+					<div class="horizontal h_3" style="left:10px; top:51px; width:43px"></div>
 					<div class="vertical s_v_1" style="left:10px; top:47px"></div>
-					<div class="h_3" style="left:10px; top:45px; width:43px"></div>
+					<div class="horizontal h_3" style="left:10px; top:45px; width:43px"></div>
 					<div class="vertical v_3" style="left:52px; height:47px"></div>
-					<div class="h_4" style="width:52px"></div>
+					<div class="horizontal h_4" style="width:52px"></div>
 				</div>
 
 				<div class="four">
@@ -345,66 +424,66 @@
 				</div>
 
 				<div class="five">
-					<div class="h_1" style="width:58px"></div>
+					<div class="horizontal h_1" style="width:58px"></div>
 					<div class="vertical v_2"></div>
-					<div class="h_1" style="left:2px; top:48px; wicth:56px"></div>
+					<div class="horizontal h_1" style="left:2px; top:48px; wicth:56px"></div>
 					<div class="vertical v_3" style="top:50px; left:56px; height:50px"></div>
-					<div class="h_1" style="top:98px; width:58px"></div>
+					<div class="horizontal h_1" style="top:98px; width:58px"></div>
 					<div class="vertical s_v_1" style="top:94px"></div>
-					<div class="h_1" style="top:92px; width:52px"></div>
+					<div class="horizontal h_1" style="top:92px; width:52px"></div>
 					<div class="vertical v_5" style="left:50px; top:55px"></div>
-					<div class="h_1" style="top:54px; width:52px"></div>
+					<div class="horizontal h_1" style="top:54px; width:52px"></div>
 				</div>
 
 				<div class="six">
 					<div class="vertical v_1"></div>
-					<div class="s_h_1"></div>
+					<div class="horizontal s_h_1"></div>
 					<div class="vertical v_1" style="left:6px"></div>
-					<div class="h_1" style="top:98px; left:8px"></div>
+					<div class="horizontal h_1" style="top:98px; left:8px"></div>
 					<div class="vertical v_2" style="left:58px; top:50px;"></div>
-					<div class="h_4" style="left:16px; top:48px"></div>
-					<div class="h_3" style="left:16px; top:54px"></div>
+					<div class="horizontal h_4" style="left:16px; top:48px"></div>
+					<div class="horizontal h_3" style="left:16px; top:54px"></div>
 					<div class="vertical s_v_1" style="left:16px; top:50px"></div>
 				</div>
 
 				<div class="seven">
 					<div class="vertical v_1" style="left:56px"></div>
-					<div class="s_h_1" style="left:52px; top:98px"></div>
+					<div class="horizontal s_h_1" style="left:52px; top:98px"></div>
 					<div class="vertical v_1" style="left:50px"></div>
-					<div class="h_1"></div>
+					<div class="horizontal h_1"></div>
 					<div class="vertical s_v_1" style="top:2px"></div>
-					<div class="h_4" style="top:6px"></div>
+					<div class="horizontal h_4" style="top:6px"></div>
 				</div>
 
 				<div class="eight">
 					<div class="vertical v_1" style="left:56px"></div>
-					<div class="s_h_1" style="left:52px;top:98px;"></div>
+					<div class="horizontal s_h_1" style="left:52px;top:98px;"></div>
 					<div class="vertical v_1" style="left:50px"></div>
-					<div class="h_1"></div>
+					<div class="horizontal h_1"></div>
 					<div class="vertical v_2"></div>
-					<div class="h_4" style="top:48px"></div>
+					<div class="horizontal h_4" style="top:48px"></div>
 					<div class="vertical s_v_1" style="top:50px; left:42px;"></div>
-					<div class="h_4" style="top:54px;"></div>
+					<div class="horizontal h_4" style="top:54px;"></div>
 					<div class="vertical v_3" style="top:54px"></div>
-					<div class="h_4" style="top:98px"></div>
+					<div class="horizontal h_4" style="top:98px"></div>
 				</div>
 
 				<div class="nine">
 					<div class="vertical v_1" style="left:56px"></div>
-					<div class="s_h_1" style="left:52px; top:98px"></div>
+					<div class="horizontal s_h_1" style="left:52px; top:98px"></div>
 					<div class="vertical v_1" style="left:50px"></div>
-					<div class="h_1"></div>
+					<div class="horizontal h_1"></div>
 					<div class="vertical v_2" style="height:54px"></div>
-					<div class="h_4" style="top:54px"></div>
-					<div class="h_3" style="top:48px; left:9px"></div>
+					<div class="horizontal h_4" style="top:54px"></div>
+					<div class="horizontal h_3" style="top:48px; left:9px"></div>
 					<div class="vertical s_v_1" style="left:42px; top:50px"></div>
 				</div>
 
 				<div class="zero">
 					<div class="vertical v_1"></div>
-					<div class="h_1" style="width:58px"></div>
+					<div class="horizontal h_1" style="width:58px"></div>
 					<div class="vertical v_1" style="left:58px"></div>
-					<div class="h_1" style="top:98px; left:8px"></div>
+					<div class="horizontal h_1" style="top:98px; left:8px"></div>
 					<div class="vertical v_4" style="top:8px;left:6px; height:92px"></div>
 				</div>
 			</div>
