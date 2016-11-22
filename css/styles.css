@@ -12,3 +12,16 @@ h1{
 h3{
 	font-family: "Montserrat", sans-serif;
 }
+
+a:link{
+	color: red;
+	text-decoration: none;
+}
+
+a:hover{
+	color: blue;
+}
+
+a:visited{
+	color: pink;
+}
