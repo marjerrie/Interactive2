@@ -1,0 +1,31 @@
+html{ 
+	background-image: url("../images/bg.jpg");
+	display: block;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	min-width: 1363px;
+}
+
+p{
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.image-g{
+	margin-top: 23%;
+	margin-left: 13.35%;
+	position: absolute;
+}
+
+.dark-green{
+	width: 3.85%;
+	height: 0;
+	padding-bottom: 3.85%;
+	border-radius: 50%;
+	background-color: white; #cf6328;
+	position: absolute;
+	left: 40%;
+	top: 25%;
+	z-index: 1;
+}

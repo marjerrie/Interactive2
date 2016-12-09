@@ -1,0 +1,39 @@
+p{
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.indigo{
+	width: 3.45%;
+	height: 0;
+	padding-bottom: 3.45%;
+	border-radius: 50%;
+	background-color: #141d3c; 
+	position: absolute;
+	left: 59.4%;
+	top: 37.55%;
+}
+
+.indigo:hover{
+	-webkit-animation-name: indigoPulse;
+  	-webkit-animation-duration: 5s;
+  	-webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes indigoPulse {
+  from { background-color: #141d3c; -webkit-box-shadow: 0 0 9px #333; }
+  50% { background-color: #232E50; -webkit-box-shadow: 0 0 18px #232E50; }
+  to { background-color: #141d3c; -webkit-box-shadow: 0 0 9px #333; }
+}
+
+.artist{
+	width: 15%;
+	/*height: 15%;*/
+	height: 50px;
+	margin-top: -1%;
+	float: right;
+	color: #141d3c;
+	font-weight: bold;
+	font-size: 1.5em;
+	letter-spacing: 0.5px;
+}
+

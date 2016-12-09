@@ -1,0 +1,63 @@
+body{
+	overflow: hidden;
+}
+
+p{
+	font-family: 'Noto Sans', sans-serif;
+}
+
+/*.logo{
+	margin-top: 1.5%;
+	margin-left: 1.5%;
+	opacity: 0.15;
+}
+
+.logo:hover{
+	opacity: 1;
+}*/
+
+
+.canvas{
+	width: 74%;
+	height: 780px;
+}
+
+.image{
+	float: right;
+	margin-top: 0.8%;
+}
+
+.orange{
+	width: 3.5%;
+	height: 0;
+	padding-bottom: 3.5%;
+	border-radius: 50%;
+	background-color: #e6832e; 
+	position: absolute;
+	left: 76.1%;
+	top: 41.1%;
+}
+
+.orange:hover{
+	-webkit-animation-name: orangePulse;
+  	-webkit-animation-duration: 5s;
+  	-webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes orangePulse {
+  from { background-color: #e6832e; -webkit-box-shadow: 0 0 9px #333; }
+  50% { background-color: #F8A156; -webkit-box-shadow: 0 0 18px #F8A156; }
+  to { background-color: #e6832e; -webkit-box-shadow: 0 0 9px #333; }
+}
+
+.artist{
+	width: 15%;
+	/*height: 15%;*/
+	height: 50px;
+	margin-top: -1%;
+	float: right;
+	color: #e6832e;
+	font-weight: bold;
+	font-size: 1.5em;
+	letter-spacing: 0.5px;
+}

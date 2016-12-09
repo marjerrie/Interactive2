@@ -1,0 +1,38 @@
+p{
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.cyan{
+	width: 3.35%;
+	height: 0;
+	padding-bottom: 3.35%;
+	border-radius: 50%;
+	background-color: #0287c0; 
+	position: absolute;
+	left: 58%;
+	top: 48.65%;
+}
+
+.cyan:hover{
+	-webkit-animation-name: cyanPulse;
+  	-webkit-animation-duration: 5s;
+  	-webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes cyanPulse {
+  from { background-color: #0287c0; -webkit-box-shadow: 0 0 9px #7F7E7E; }
+  50% { background-color: #2CAAE0; -webkit-box-shadow: 0 0 18px #2CAAE0; }
+  to { background-color: #0287c0; -webkit-box-shadow: 0 0 9px #7F7E7E; }
+}
+
+.artist{
+	width: 15%;
+	/*height: 15%;*/
+	height: 50px;
+	margin-top: -1%;
+	float: right;
+	color: #0287c0;
+	font-weight: bold;
+	font-size: 1.5em;
+	letter-spacing: 0.5px;
+}

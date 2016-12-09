@@ -1,0 +1,54 @@
+p{
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.image-g{
+	margin-top: 23%;
+	margin-left: 13.35%;
+	position: absolute;
+	z-index: 2;
+}
+
+.image-g-s{
+	width: 41.1%;
+	height: 37%;
+	margin-top: 23%;
+	margin-left: 13.35%;
+	position: absolute;
+	box-shadow: 8px 8px 5px #cf6328;
+}
+
+.green{
+	width: 3.55%;
+	height: 0;
+	padding-bottom: 3.55%;
+	border-radius: 50%;
+	background-color: #009b57; 
+	position: absolute;
+	left: 50%;
+	top: 45.7%;
+	z-index: 1
+}
+
+.orange{
+	width: 3.85%;
+	height: 0;
+	padding-bottom: 3.85%;
+	border-radius: 50%;
+	background-color: #cf6328;
+	position: absolute;
+	left: 21.8%;
+	top: 45.3%;
+	z-index: 3;
+	-webkit-animation-name: orangePulse;
+  	-webkit-animation-duration: 5s;
+  	-webkit-animation-iteration-count: infinite;
+
+  	transition: all 1s ease-in-out;
+}
+
+@-webkit-keyframes orangePulse {
+  from { background-color: #cf6328; -webkit-box-shadow: 0 0 9px #7F7E7E; }
+  50% { background-color: #FFAE83; -webkit-box-shadow: 0 0 18px #068CFB; }
+  to { background-color: #cf6328; -webkit-box-shadow: 0 0 9px #7F7E7E; }
+}

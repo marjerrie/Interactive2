@@ -1,0 +1,40 @@
+p{
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.red{
+	width: 3.5%;
+	height: 0;
+	padding-bottom: 3.5%;
+	border-radius: 50%;
+	background-color: #d83633; 
+	position: absolute;
+	left: 66.75%;
+	top: 38.5%;
+}
+
+.red:hover{
+	-webkit-animation-name: redPulse;
+  	-webkit-animation-duration: 5s;
+  	-webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes redPulse {
+  from { background-color: #d83633; -webkit-box-shadow: 0 0 9px #7F7E7E; }
+  50% { background-color: #EE5D59; -webkit-box-shadow: 0 0 18px #EE5D59; }
+  to { background-color: #d83633; -webkit-box-shadow: 0 0 9px #7F7E7E; }
+}
+
+.artist{
+	width: 15%;
+	/*height: 15%;*/
+	height: 50px;
+	margin-top: -1%;
+	float: right;
+	color: #d83633;
+	font-weight: bold;
+	font-size: 1.5em;
+	letter-spacing: 0.5px;
+}
+
+

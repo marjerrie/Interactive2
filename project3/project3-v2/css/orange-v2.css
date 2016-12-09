@@ -1,0 +1,68 @@
+html{
+	overflow: hidden;
+}
+
+p{
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.image-g{
+	margin-top: 23%;
+	margin-left: 13.35%;
+	position: absolute;
+	z-index: 2;
+
+}
+
+.image-g-s{
+	width: 41.1%;
+	height: 37%;
+	margin-top: 23%;
+	margin-left: 13.35%;
+	position: absolute;
+	box-shadow: 8px 8px 5px #cf6328;
+	z-index: 2;
+
+}
+
+.image-o{
+	margin-top: 19%;
+	margin-left: 19.8%;
+	position: absolute;
+	z-index: 5;
+}
+
+.image-o-s{
+	width: 36.1%;
+	height: 70%;
+	margin-top: 19%;
+	margin-left: 19.8%;
+	position: absolute;
+	z-index: 4;
+	box-shadow: 8px 8px 5px #b91d1a;
+}
+
+.red{
+	width: 6.7%;
+	height: 0;
+	padding-bottom: 6.7%;
+	border-radius: 50%;
+	background-color: #b91d1a;
+	position: absolute;
+	left: 45%;
+	top: 33%;
+	z-index: 6;
+	opacity: 0.5;
+	-webkit-animation-name: greenPulse;
+  	-webkit-animation-duration: 2.5s;
+  	-webkit-animation-iteration-count: infinite;
+  	transition: all 2s ease-in-out;
+}
+
+@-webkit-keyframes greenPulse {
+  from { background-color: #b91d1a; -webkit-box-shadow: 0 0 9px #7F7E7E; }
+  50% { background-color: #F36965; -webkit-box-shadow: 0 0 18px #1CAE6F; }
+  to { background-color: #b91d1a; -webkit-box-shadow: 0 0 9px #7F7E7E; }
+}
+
+
